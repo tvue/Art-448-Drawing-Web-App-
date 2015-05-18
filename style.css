@@ -1,0 +1,119 @@
+body{
+  
+    }
+    
+#ball{
+    position: sticky;
+    height: 300px;
+    width:300px;
+    border-radius:400px;
+    background-color: red;
+    margin: 0 auto;    
+    }
+/*changing background color css*/    
+#posts {
+background-size: 50px 50px;
+background-color: gray;
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    }
+    
+.subform{
+    padding: 5px;
+    display:block;
+    margin: 0 center;
+    text-align:center;
+    }
+    
+#myTypingText {
+    cursor: default;
+    padding:5px;
+    color:white;
+    font-style: bold;
+    font-family: Monospace, Arial, Helvetica, sans-serif;
+    display: block;
+    font-size:60px;
+    line-height:1.5em;
+    text-align: center;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    
+}
+
+#myTypingText1 {
+    cursor:help;
+    padding:5px;
+    color:white;
+    font-style: bold;
+    font-family: Monospace, Arial, Helvetica, sans-serif;
+    display: block;
+    font-size:30px;
+    line-height:1.5em;
+    text-align: center;
+    width: 580px;
+    margin: 0 auto;
+}
+
+#canvas {
+                display:block;
+                margin:20px auto;
+                border:10px solid white;
+                /*border-radius: 500px;*/
+                height:500px;
+                width:500px;
+                background-color: 242323;
+                border-radius: 30px;
+            }
+			
+clear{
+		background-color:#333;
+		border: 2px;
+		width: 200px;
+		height: 100px;
+}
+    
+.center{
+        color:white;
+        margin auto;
+        width:70%;
+       
+    }
+    
+a:hover{
+    -webkit-transition:font-size 1s; 
+ 	transition:font-size 2s;
+    font-size: 70;
+    /*color:#333;*/
+    }
+a:active{
+     font-size: 20;  
+    }
+
+.customB{
+  cursor: pointer;
+  height: 36px;
+  padding: 0.6em;
+  color: white;
+  border: 2px solid white;
+  border-radius: .5em;
+  font-size: 14px;
+  background: transparent;
+}
+
+.customB:hover{
+  background: rgba(47, 47, 47, 0.31);
+  -webkit-transition: .5s; 
+  transition: .5s;
+}
+
+.titleInput{
+  height: 35px;
+  padding: 0.6em;
+  color: #333;
+  border: 2px solid white;
+  border-radius: .5em;
+  font-size: 14px;
+  background: white;
+  padding-top: 1.5em;
+}

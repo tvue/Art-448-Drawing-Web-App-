@@ -1,0 +1,89 @@
+h1,h2,h3,h4,h5,h6,p{
+         font-family:sans-serif;
+         color:white;
+         text-align: center;
+     }
+    
+    BODY{
+background-size: 50px 50px;
+background-color: #007B8B;
+background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+-pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #007B8B;
+
+    }
+    
+.ball{
+        position: static;
+        height: 110px;
+        width: 110px;
+        border-radius: 200px;
+        background-color: #F15D42;
+        border: 1.5 white solid;
+        margin: 0, auto;
+    }
+    
+#H{
+        
+        cursor: default;
+        font-family: Monospace, Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 60px;
+        text-align: center;
+        text-decoration: bold;
+        padding:50px;
+        margin:0 auto;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        bottom: 20px;
+        background-color: rgba(5,5,5,0.5);
+
+    }
+
+#H:active{
+        -webkit-transition:font-size 1s; 
+ 	      transition:font-size 2s;
+        font-size: 30px;
+    }
+     
+img{
+         height: 200px;
+         width: 200px;
+         border: solid white 4px;
+         background-color: #242323;
+         border-radius: 30px;
+         display: block;
+         margin: 0 auto;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+        transition:width 2s, height 2s, transform 2s;
+        opacity: .97;
+     }
+
+img:hover{
+        cursor: none;
+        width:300px;
+        height:300px;
+        opacity: 1;
+    }
+    
+img:active{
+        
+    }
+    
+
+.centerPanel{
+        float: left;
+        position: inherit;
+        width: 300px;  
+        height: 430px;
+    }
+    
+.backdrop{
+        position: inherit;
+        width: 130px;
+        background-color: black;
+        opacity:.6;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
